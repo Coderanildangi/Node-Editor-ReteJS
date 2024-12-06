@@ -1,0 +1,31 @@
+.namebar{
+    width: 100%;
+    height: 100%;
+    background-color: #97d2ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.editor {
+  margin: 2rem auto; /* Center with responsive margin */
+  width: 90%;        /* Occupy 90% of the viewport width */
+  height: 70vh;      /* Occupy 70% of the viewport height */
+  max-width: 1200px; /* Optional: Set a maximum width */
+  border: 5px solid #ccc;
+  background: #f5f5f5;
+  box-sizing: border-box; /* Include padding and border in width/height */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.footbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
